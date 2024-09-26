@@ -60,5 +60,9 @@
         "uri": "<PROXY_BASE_URL>/api/archive"
       }
     }
-  ]
+  ],
+  "publicationRegions": [
+    "US"
+  ],
+  "distribution": "PUBLIC"
 }
