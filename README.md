@@ -2,6 +2,9 @@
 ## Introduction
 This reference implementation models the use case of taking an agreement PDF sent by the Docusign platform using a file archive extension app and storing it either locally or with the cloud provider of choice (AWS, Azure, or GCP).
 
+## Combining with Other Extensions
+The file archive extension type is designed to work with other extension types to enhance the functionality of an extension app and simplify workflows. For a practical example of combining extension types in an extension app, see the [File Archive and Data Verification Reference Implementation](https://github.com/docusign/file-archive-dv-reference-implementation/).
+
 ## Authentication
 This reference implementation supports two [authentication](https://developers.docusign.com/extension-apps/build-an-extension-app/it-infrastructure/authorization/) flows:
 * [Authorization Code Grant](https://developers.docusign.com/extension-apps/build-an-extension-app/it-infrastructure/authorization/#authorization-code-grant) – required for public extension apps
